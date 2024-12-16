@@ -1,5 +1,21 @@
 # python-deep-learning-chatbot
 A deep learning chatbot created with Python and Flask
+Project Structure Make sure your project structure looks like this:
+```
+dl_chatbot/
+├── cb/
+│   ├── app.py
+│   ├── chatbot.py
+│   ├── chatbot_model.h5
+│   ├── classes.pkl
+│   ├── words.pkl
+│   ├── job_intents.json
+│   ├── static/
+│   └── templates/
+├── requirements.txt
+├── Procfile
+└── README.md
+```
 
 To get started follow the steps below:
 
@@ -28,6 +44,3 @@ Run the APP to create a Flask front end on port 8888 (or any port the app is poi
 python app.py
 ```
 
-# Watch the full Tutorial on Youtube
-[Create a Deep Learning Machine Learning Chatbot with Python and Flask](https://www.youtube.com/watch?v=8HifpykuTI4)
-"# college_chatbot" 
