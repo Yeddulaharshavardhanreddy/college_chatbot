@@ -1,0 +1,238 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi", "Hello", "Hey there", "Good morning", "Good afternoon", 
+        "Good evening", "Hi there", "Hey", "Greetings"
+      ],
+      "responses": [
+        "Hello! I'm S.E.A, your Student Enquiry and Admission Assistant. How can I help you today?", 
+        "Hi there! I'm here to help you with college information and admissions. What would you like to know?"
+      ]
+    },
+    {
+      "tag": "engineering_colleges",
+      "patterns": [
+        "engineering colleges", "best engineering colleges", "engineering institutions", 
+        "which are the engineering colleges", "tell me about engineering colleges", "IIIT", 
+        "RVCE", "PES", "MSRIT", "UVCE"
+      ],
+      "responses": [
+        "Here are some top Engineering Colleges in Bangalore:\n\n1. International Institute of Information Technology (IIIT-B)\n   📍 Location: Electronic City\n   📞 Contact: +91 80 4140 7777\n\n2. R.V. College of Engineering (RVCE)\n   📍 Location: Mysore Road\n   📞 Contact: +91 80 6717 8021\n\n3. PES University\n   📍 Location: Hosur Road\n   📞 Contact: +91 80 2672 1983\n\n4. M.S. Ramaiah Institute of Technology (MSRIT)\n   📍 Location: MSRIT Post\n   📞 Contact: +91 80 2360 9898\n\n5. University Visvesvaraya College of Engineering (UVCE)\n   📍 Location: K.R. Circle\n   📞 Contact: +91 80 2296 1694"
+      ]
+    },
+    {
+      "tag": "medical_colleges",
+      "patterns": [
+        "medical colleges", "best medical colleges", "medical schools", "MBBS colleges", 
+        "which are the medical colleges", "tell me about medical colleges", "BMCRI", 
+        "St. John's", "RRMCH"
+      ],
+      "responses": [
+        "Here are some prominent Medical Colleges in Bangalore:\n\n1. Bangalore Medical College and Research Institute (BMCRI)\n   📍 Location: K.R. Road\n   📞 Contact: +91 80 2670 4122\n\n2. St. John's Medical College (SJMC)\n   📍 Location: Sarjapur Road\n   📞 Contact: +91 80 2206 5000\n\n3. Rajarajeswari Medical College and Hospital (RRMCH)\n   📍 Location: Mysore Road\n   📞 Contact: +91 80 2843 7454"
+      ]
+    },
+    {
+      "tag": "law_colleges",
+      "patterns": [
+        "law colleges", "best law colleges", "law schools", "which are the law colleges", 
+        "tell me about law colleges", "NLSIU"
+      ],
+      "responses": [
+        "Here are the top Law Colleges in Bangalore:\n\n1. National Law School of India University (NLSIU)\n   📍 Location: Nagarbhavi\n   📞 Contact: +91 80 2321 3160\n\n2. University Law College, Bangalore University\n   📍 Location: Jnanabharathi Campus\n   📞 Contact: +91 80 2296 1694"
+      ]
+    },
+    {
+      "tag": "other_colleges",
+      "patterns": [
+        "other colleges", "management colleges", "IIM", "Christ University", 
+        "Jain University", "best colleges", "top institutes"
+      ],
+      "responses": [
+        "Here are some other prestigious institutions in Bangalore:\n\n1. Indian Institute of Management (IIM-B)\n   📍 Location: Bannerghatta Road\n   📞 Contact: +91 80 2658 2450\n\n2. Christ University\n   📍 Location: Hosur Road\n   📞 Contact: +91 80 4012 9100\n\n3. Jain University\n   📍 Location: Jayanagar\n   📞 Contact: +91 80 4343 0200"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye", "See you later", "Goodbye", "Thanks bye", 
+        "Thank you goodbye", "Bye bye", "See ya"
+      ],
+      "responses": [
+        "Goodbye! Feel free to come back if you have more questions about colleges and admissions!", 
+        "Have a great day! Don't hesitate to return if you need more information!"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thank you", "Thanks", "Thanks a lot", 
+        "Thank you so much", "Thanks for helping",
+        "That's helpful", "You've been helpful"
+      ],
+      "responses": [
+        "You're welcome! Is there anything else you'd like to know about colleges or admissions?", 
+        "Happy to help! Let me know if you need more information about any institution."
+      ]
+    },
+    {
+      "tag": "top_colleges",
+      "patterns": [
+        "What are the top engineering colleges in Bangalore?",
+        "Best engineering colleges in Bangalore",
+        "Top colleges for engineering",
+        "Which are the best engineering institutes?",
+        "Rank 1 engineering college",
+        "Top 10 engineering colleges"
+      ],
+      "responses": [
+        "The top engineering colleges in Bangalore include:\n1. IIIT Bangalore\n2. RV College of Engineering (RVCE)\n3. MS Ramaiah Institute of Technology (RIT)\n4. BMS College of Engineering\n5. PES University\n\nWould you like to know more about any specific college?"
+      ]
+    },
+    {
+      "tag": "college_fees",
+      "patterns": [
+        "What are the fees?",
+        "How much does engineering cost?",
+        "College fee structure",
+        "Annual fees for engineering",
+        "Course fees",
+        "Tuition fees",
+        "How expensive is engineering?"
+      ],
+      "responses": [
+        "Engineering fees vary by college. Here's a general overview:\n- IIIT Bangalore: ₹3.84 lakh/year\n- RVCE: ₹1.17 lakh/year\n- RIT: ₹1.20 lakh/year\n- BMS: ₹1.28-5 lakh/year\n- PES: ₹2-15 lakh total\n\nWould you like specific fee details for any college?"
+      ]
+    },
+    {
+      "tag": "placements",
+      "patterns": [
+        "What are the placements like?",
+        "Placement statistics",
+        "Average package",
+        "Highest package",
+        "Which companies recruit?",
+        "Placement companies",
+        "Job opportunities"
+      ],
+      "responses": [
+        "Top engineering colleges in Bangalore have excellent placements:\n- IIIT Bangalore: Avg 35 LPA, Highest 65 LPA\n- RVCE: Highest 62 LPA\n- RIT: Avg 7.66 LPA, Highest 50 LPA\n\nTop recruiters include Google, Amazon, Microsoft, Goldman Sachs, and other leading tech companies."
+      ]
+    },
+    {
+      "tag": "admission_process",
+      "patterns": [
+        "How to get admission?",
+        "Admission process",
+        "How to apply?",
+        "Entrance exams required",
+        "What is the eligibility?",
+        "Selection criteria",
+        "How to join?"
+      ],
+      "responses": [
+        "For engineering admissions in Bangalore, you need to:\n1. Appear for entrance exams (JEE Main, KCET, or COMEDK UGET)\n2. Meet eligibility criteria (usually 45% in 12th with PCM)\n3. Apply through college websites\n4. Participate in counseling\n\nWould you like specific details about any exam or college?"
+      ]
+    },
+    {
+      "tag": "courses_offered",
+      "patterns": [
+        "What courses are available?",
+        "Which branches are offered?",
+        "Engineering branches",
+        "Available specializations",
+        "Course options",
+        "What can I study?"
+      ],
+      "responses": [
+        "Common engineering branches offered include:\n1. Computer Science (CSE)\n2. Information Technology (IT)\n3. Electronics & Communication (ECE)\n4. Mechanical Engineering\n5. Artificial Intelligence & ML\n6. Data Science\n\nMost colleges also offer specialized programs. Which branch interests you?"
+      ]
+    },
+    {
+      "tag": "infrastructure",
+      "patterns": [
+        "How is the college infrastructure?",
+        "Tell me about facilities",
+        "Campus facilities",
+        "College amenities",
+        "What facilities are available?",
+        "How is the campus?"
+      ],
+      "responses": [
+        "Top engineering colleges in Bangalore offer excellent facilities including:\n- Modern laboratories and research centers\n- Well-equipped libraries\n- Sports facilities and gymnasiums\n- Wi-Fi enabled campuses\n- Smart classrooms\n- Hostels and cafeterias\n\nWould you like to know about any specific college's facilities?"
+      ]
+    },
+    {
+      "tag": "college_rankings",
+      "patterns": [
+        "What are the NIRF rankings?",
+        "College rankings in Bangalore",
+        "Best ranked engineering colleges",
+        "NIRF rank of colleges",
+        "Top ranked institutes",
+        "College ranking comparison"
+      ],
+      "responses": [
+        "According to NIRF 2023 rankings:\n- IIIT Bangalore: Rank 74\n- RIT: Rank 78\n- RVCE: Rank 96\n- BMSCE: Rank 101-150\n- Christ University: Rank 101-150\n\nWould you like to know more about any of these colleges?"
+      ]
+    },
+    {
+      "tag": "roi",
+      "patterns": [
+        "What is the ROI of colleges?",
+        "Return on investment for engineering",
+        "Best college for value for money",
+        "Cost vs placement comparison",
+        "Which college has best ROI?",
+        "Investment returns from colleges"
+      ],
+      "responses": [
+        "Here are the ROI details for top colleges:\n- IIIT Bangalore: 811.46% ROI (Avg package 35 LPA)\n- RVCE: 754.7% ROI (Avg package 10 LPA)\n- RIT: 538.33% ROI (Avg package 7.66 LPA)\n- CMRIT: 479.09% ROI\n\nThese calculations consider annual fees versus average packages."
+      ]
+    },
+    {
+      "tag": "cutoff_ranks",
+      "patterns": [
+        "What are the cutoff ranks?",
+        "KCET cutoff for colleges",
+        "COMEDK cutoff ranks",
+        "JEE Main cutoff",
+        "Last year cutoff",
+        "Minimum rank required",
+        "Cutoff trends"
+      ],
+      "responses": [
+        "2023 Cutoff ranks for top colleges:\n- IIIT Bangalore: JEE Main 9545-13669\n- RIT: KCET 1171-55277, COMEDK 1358-31207\n- RVCE: KCET 310-18500, COMEDK 406-17203\n- BMSCE: KCET 1027-51444\n\nWould you like specific cutoff details for any college?"
+      ]
+    },
+    {
+      "tag": "entrance_exams",
+      "patterns": [
+        "Which entrance exams are required?",
+        "How to prepare for engineering entrance?",
+        "Important entrance tests",
+        "Which exam should I write?",
+        "Engineering entrance exams",
+        "Exam preparation tips"
+      ],
+      "responses": [
+        "Main entrance exams for engineering in Bangalore:\n1. KCET (Karnataka Common Entrance Test)\n2. COMEDK UGET\n3. JEE Main\n4. College-specific tests\n\nMost colleges accept multiple exam scores. Which exam would you like to know more about?"
+      ]
+    },
+    {
+      "tag": "hostel_facilities",
+      "patterns": [
+        "Tell me about hostels",
+        "Hostel facilities available",
+        "Accommodation options",
+        "College hostel fees",
+        "Are hostels available?",
+        "Hostel life in college"
+      ],
+      "responses": [
+        "Most top engineering colleges in Bangalore provide hostel facilities with:\n- Separate hostels for boys and girls\n- Mess facilities\n- Wi-Fi connectivity\n- Security\n- Recreation areas\n\nHostel fees typically range from ₹1-2 lakhs per year including food. Would you like specific details for any college?"
+      ]
+    }
+  ]
+}
