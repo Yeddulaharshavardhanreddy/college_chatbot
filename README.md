@@ -2,20 +2,7 @@
 A deep learning chatbot created with Python and Flask
 
 To get started follow the steps below:
-Project Structure Make sure your project structure looks like this:
-dl_chatbot/
-├── cb/
-│   ├── app.py
-│   ├── chatbot.py
-│   ├── chatbot_model.h5
-│   ├── classes.pkl
-│   ├── words.pkl
-│   ├── job_intents.json
-│   ├── static/
-│   └── templates/
-├── requirements.txt
-├── Procfile
-└── README.md
+
 1. Install a virtual environment by runnning the following
 ```
 virtualenv chatbotenv
