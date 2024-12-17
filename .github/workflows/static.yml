@@ -39,7 +39,6 @@ jobs:
         with:
           # Correct paths to static and templates directories
           path: |
-            cb/static
             cb/templates
 
       - name: Deploy to GitHub Pages
