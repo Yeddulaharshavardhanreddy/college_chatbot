@@ -33,8 +33,8 @@ jobs:
         with:
           # Upload only 'static/' and 'templates/' folders
           path: |
-            dl_chatbot/static
-            dl_chatbot/templates
+            dl_chatbot/cb/static
+            dl_chatbot/cb/templates
 
       - name: Deploy to GitHub Pages
         id: deployment
