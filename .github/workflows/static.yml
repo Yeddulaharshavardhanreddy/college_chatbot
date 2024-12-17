@@ -37,10 +37,10 @@ jobs:
       - name: Upload Static Files
         uses: actions/upload-pages-artifact@v3
         with:
-          # Double-check the correct paths here
+          # Correct paths to static and templates directories
           path: |
-            dl_chatbot/cb/static
-            dl_chatbot/cb/templates
+            cb/static
+            cb/templates
 
       - name: Deploy to GitHub Pages
         id: deployment
