@@ -1,4 +1,3 @@
-# Workflow for deploying static content to GitHub Pages
 name: Deploy Static Content to Pages
 
 on:
@@ -25,13 +24,20 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v4
 
+      - name: Debug Directory Structure
+        run: |
+          echo "### Directory structure:"
+          ls -R
+          echo "### Current working directory:"
+          pwd
+
       - name: Setup Pages
         uses: actions/configure-pages@v5
 
       - name: Upload Static Files
         uses: actions/upload-pages-artifact@v3
         with:
-          # Upload only 'static/' and 'templates/' folders
+          # Double-check the correct paths here
           path: |
             dl_chatbot/cb/static
             dl_chatbot/cb/templates
